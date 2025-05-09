@@ -1,0 +1,33 @@
+.homepage-phrase {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-top: 24dvh;
+ /* Add spacing between letters */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.homepageContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Ensure vertical alignment of text and images */
+    justify-content: space-between; /* Add space between text and images */
+    gap: 50px; /* Add gap between the text and images */
+    padding: 0 3vw; /* Add horizontal padding for better layout */
+}
+
+.homepageImages {
+    display: flex;
+    flex-direction: row;
+    gap: 40px; /* Add gap between the images */
+    margin-top: 3dvh;
+}
+
+.homeImageDimensions {
+    width: 300px;
+    height: 450px;
+    margin-top: 10dvh;
+    border-radius: 10px; /* Add rounded corners to images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effect */
+}
+

@@ -1,0 +1,25 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.navbar-list{
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row ;
+}
+.navbar-list-items a{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+}
+.navbar-logo{
+    width: 72px;
+    height: 48px;
+}
+
