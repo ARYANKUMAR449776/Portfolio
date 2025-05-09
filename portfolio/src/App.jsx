@@ -1,20 +1,12 @@
-import { use, useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
-import NavBar from '../src/Components/Navbar.jsx'
+import Navbar from './Components/NavBar/Navbar.jsx'
+import { Routes } from 'react-router-dom'
 
 function App() {
-  const [message, setMessage] = useState('')
-
-  useEffect(() => {
-    fetch('/api/message')
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
   return (
-
     <>
-      <NavBar />
-      <h1>My React App, {message}</h1>
+    <Navbar />
     </>
   )
 }
