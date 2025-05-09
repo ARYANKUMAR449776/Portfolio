@@ -23,3 +23,8 @@
     height: 48px;
 }
 
+@media (max-width: 768px) {
+    .navbar-list-items a{
+    display: none;
+}
+}
