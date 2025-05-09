@@ -63,6 +63,11 @@ const Homepage = () => {
         </div>
       </section>
 
+      <div class="project-text-wrapper">
+        <h1 class="stroke top">PROJECTS</h1>
+        <h1 class="stroke bottom">PROJECTS</h1>
+      </div>
+
       <section className="homepageSection2Wrapper">
         <button className="homepageSection2Button Left" onClick={scrollLeft}>
           <img src={assets.LeftArrowIcon} alt="Scroll Left" className="buttonIcon" />

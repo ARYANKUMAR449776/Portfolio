@@ -91,3 +91,40 @@
 .homepageSection2Button.Right {
     right: 10px;
 }
+
+
+.project-text-wrapper {
+   z-index: 1000;
+    position: absolute;
+     margin-top: 20vh;
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; 
+    width: 100%;
+
+}
+
+.stroke {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    background-color: transparent;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+
+}
+
+/* Top half (black stroke) */
+.stroke.top {
+    -webkit-text-stroke: 2px white;
+    clip-path: inset(0 0 50% 0);
+}
+
+/* Bottom half (white stroke) */
+.stroke.bottom {
+    -webkit-text-stroke: 2px black;
+    clip-path: inset(50% 0 0 0);
+}
