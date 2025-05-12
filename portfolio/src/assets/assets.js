@@ -10,6 +10,11 @@ import Plantify2 from '../assets/Plantify2.png';
 import Nexus from '../assets/Nexus.png';
 import Moov from '../assets/Moov.png';
 import EmergencyDevice from '../assets/EmergencyDevice.png';
+import GithubLogo from '../assets/GitLogo.jpg';
+import LinkedInLogo from '../assets/LinkedIn.png';
+import ErrorPageLogo from '../assets/404Page.gif';
+
+
 export const assets = {
   LogoWhite,
   MainBodyImage1,
@@ -22,5 +27,8 @@ export const assets = {
   Plantify2,
   Nexus,
   Moov,
-  EmergencyDevice
+  EmergencyDevice,
+  GithubLogo,
+  LinkedInLogo,
+  ErrorPageLogo
 };

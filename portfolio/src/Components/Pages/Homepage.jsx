@@ -7,11 +7,23 @@ const Homepage = () => {
   const containerRef = useRef(null);
 
   const scrollerImages = [
-    assets.FlexworkspaceCE,
     assets.Plantify,
     assets.PagePilotCE,
+    assets.FlexworkspaceCE,
+    assets.Nexus,
+    assets.Moov,
+
+    assets.MainBodyImage2,
+    assets.MainBodyImage1,
+    assets.FlexworkspaceCE,
+
+    assets.Plantify,
+
+    assets.PagePilotCE,
+
     assets.Plantify2,
-    assets.MainBodyImage1
+    assets.MainBodyImage1,
+
   ];
 
   const duplicatedImages = [...scrollerImages, ...scrollerImages]; // Duplicate images for seamless looping
@@ -85,7 +97,7 @@ const Homepage = () => {
         </button>
       </section>
 
-      <section className="homepageSection3Container">
+      <section id="projects" className="homepageSection3Container">
         <ProjectCard
           image={assets.Plantify}
           projectTitle="Plantify"
@@ -127,14 +139,13 @@ const Homepage = () => {
 
         />
 
-          <ProjectCard  
+        <ProjectCard
           image={assets.Nexus}
           projectTitle="Nexus Point Solutions"
           projectDescription="Nexus Point Solutions is a full-stack SaaS project management platform developed using the MERN stack. It includes distinct interfaces for users and administrators, with role-based access control and premium subscription integration via Stripe. Admins can manage site content while users access tools and newsletters. The backend uses RESTful APIs and MongoDB for data persistence. Built within an Agile team environment, this project emphasizes production-level architecture, modular design, and seamless full-stack integration. It reflects the ability to build scalable web applications, handle authentication securely, and design business-ready solutions for SaaS-based platforms with subscription models."
           imageLayout="image-right"
           tags={['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Stripe', 'REST API']}
         />
-
 
         <ProjectCard
           image={assets.Moov}
@@ -143,10 +154,6 @@ const Homepage = () => {
           imageLayout="image-left"
           tags={['.NET Core', 'C#', 'WinForms', 'Entity Framework', 'LINQ', 'SQL Server']}
         />
-
-        
-
-      
 
         <ProjectCard
           image={assets.EmergencyDevice}
