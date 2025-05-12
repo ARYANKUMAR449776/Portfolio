@@ -84,20 +84,38 @@ const Homepage = () => {
       </section>
 
       <section className="homepageSection3Container">
-          <ProjectCard
+        <ProjectCard
           image={assets.FlexworkspaceCE}
           projectTitle="Plantify"
           projectDescription="Plantify is a Kotlin-based 
           Android application designed to help plant lovers
           manage and care for their green companions with ease. 
           Built using Jetpack Compose, Firebase, and Google
-          APIs, the app allows users to track watering schedules, sunlight needs, and personalize each plant with custom nicknames and favorites.
+          APIs, the app allows users to track watering schedules, sunlight needs,
+           and personalize each plant with custom nicknames and favorites.
           Whether you're a seasoned gardener or a new plant parent, 
           Plantify simplifies plant care through interactive UI 
           components, real-time reminders, and a growing plant database."
           imageLayout="image-left"
+          tags={['Kotlin', 'Jetpack Compose', 'Android Studio', 'Firebase Firestore', 'Firebase Auth', 'Google APIs','Role-based Authentication']}
         />
-        
+        <ProjectCard
+          image={assets.FlexworkspaceCE}
+          projectTitle="Flex Workspace"
+          projectDescription="Flex Workspace is a full-stack office 
+          space rental platform developed using the MERN stack.
+           It enables users to browse, book, and manage office s
+           paces while providing admins with a dashboard to maintain 
+           listings. Authentication is handled using JWT, and CRUD functionality 
+           is implemented across the application. The UI is responsive and 
+           optimized for desktop and mobile users. The platform demonstrates
+            end-to-end web development skills, secure authentication flows, 
+          and modern UI design tailored for business use cases"
+          imageLayout="image-right"
+          tags={['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'MERN Stack', 'RESTful APIs' , 'Role-based Authentication']}
+
+        />
+
       </section>
     </div>
   );
