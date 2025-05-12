@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Homepage.css';
 import { assets } from '../../assets/assets';
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 const Homepage = () => {
   const containerRef = useRef(null);
@@ -63,9 +64,9 @@ const Homepage = () => {
         </div>
       </section>
 
-      <div class="project-text-wrapper">
-        <h1 class="stroke top">PROJECTS</h1>
-        <h1 class="stroke bottom">PROJECTS</h1>
+      <div className="project-text-wrapper">
+        <h1 className="stroke top">PROJECTS</h1>
+        <h1 className="stroke bottom">PROJECTS</h1>
       </div>
 
       <section className="homepageSection2Wrapper">
@@ -80,6 +81,23 @@ const Homepage = () => {
         <button className="homepageSection2Button Right" onClick={scrollRight}>
           <img src={assets.RightArrowIcon} alt="Scroll Right" className="buttonIcon" />
         </button>
+      </section>
+
+      <section className="homepageSection3Container">
+          <ProjectCard
+          image={assets.FlexworkspaceCE}
+          projectTitle="Plantify"
+          projectDescription="Plantify is a Kotlin-based 
+          Android application designed to help plant lovers
+          manage and care for their green companions with ease. 
+          Built using Jetpack Compose, Firebase, and Google
+          APIs, the app allows users to track watering schedules, sunlight needs, and personalize each plant with custom nicknames and favorites.
+          Whether you're a seasoned gardener or a new plant parent, 
+          Plantify simplifies plant care through interactive UI 
+          components, real-time reminders, and a growing plant database."
+          imageLayout="image-left"
+        />
+        
       </section>
     </div>
   );
