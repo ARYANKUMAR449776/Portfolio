@@ -6,6 +6,10 @@ import PagePilotCE from '../assets/PagePilotCE.png';
 import Plantify from '../assets/Plantify.png';
 import LeftArrowIcon from '../assets/LeftArrowIcon.png';
 import RightArrowIcon from '../assets/RightArrowIcon.png';
+import Plantify2 from '../assets/Plantify2.png';
+import Nexus from '../assets/Nexus.png';
+import Moov from '../assets/Moov.png';
+import EmergencyDevice from '../assets/EmergencyDevice.png';
 export const assets = {
   LogoWhite,
   MainBodyImage1,
@@ -15,4 +19,8 @@ export const assets = {
   Plantify,
   LeftArrowIcon,
   RightArrowIcon,
+  Plantify2,
+  Nexus,
+  Moov,
+  EmergencyDevice
 };

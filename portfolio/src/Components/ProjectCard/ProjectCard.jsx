@@ -16,7 +16,7 @@ const ProjectCard = ({ image, projectTitle, projectDescription, imageLayout, tag
               key={index}
               style={{ color: index === 0 ? "white" : "#393939" }}
             >
-              {word}
+              {" "+word}
             </span>
           ))}
         </h1>
