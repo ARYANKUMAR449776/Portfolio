@@ -26,8 +26,12 @@
 @media (max-width: 768px) {
     .navbar-list-items a{
     display: none;
+    }
+    .navbar-list{
+        display: none;
+    }
 }
-}
+
 
 
 /* Dropdown container */
