@@ -1,43 +1,27 @@
-.error-page-wrapper {
-    background-color: #000000; /* Set the desired background color */
-       color: black;
-    height: 97vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.error-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black;
-     background-color: #000000;
-}
-
-.ErrorImage {
-    width: auto;
-    height: 80vh;
-    object-fit: cover;
-}
-
 .TopHeading{
-    color: white;
-    background-color: transparent;
-    padding: 0;
-  margin: 0 0 10x 0;
-    font-size: 20px;
-     font-weight: lighter;
+color: white;
+font-weight: normal;
+font-size: 20px;
+}
+.BottomHeading{
+color: white;
+font-weight: normal;
+font-size: 20px;
 }
 
-.BottomHeading{
-    color: white;
-    background-color: transparent;
-    padding: 0;
-    margin: 10px 0;
-        font-size: 20px;
-        font-weight: lighter;
+.error-page-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+margin-top: 20%;
+}
+
+@media (max-width:480px){
+    .TopHeading,.BottomHeading{
+        font-size: 12px;
+    }
+    .error-page-heading{
+        margin-top: 50dvh;
+    }
 }
