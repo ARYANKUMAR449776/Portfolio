@@ -7,6 +7,11 @@
     font-weight: bold;
     color: white;
     line-height: 1.2;
+    background-color: transparent;
+}
+
+.homepage-phrase-wrapper {
+    background-color: transparent;
 }
 
 .homepageSection1Container {
@@ -25,6 +30,27 @@
     gap: 40px;
 }
 
+.CloudImageTop {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    display: none;
+
+}
+
+.CloudImageBottom {
+    transform: rotate(180deg);
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+ display: none;
+
+}
+
 .homeImageDimensions {
     width: 300px;
     height: 450px;
@@ -40,6 +66,7 @@
     margin: 20px 0;
     overflow: hidden;
     margin: 20vh 0 15vh 0;
+    background-color: transparent;
 }
 
 .homepageSection2Container {
@@ -196,14 +223,14 @@
         font-size: 30px;
     }
 
-    .stroke.bottom{
+    .stroke.bottom {
         -webkit-text-fill-color: #121212;
         -webkit-text-stroke: transparent;
     }
 
-    .stroke.top{
+    .stroke.top {
         -webkit-text-fill-color: white;
-             -webkit-text-stroke: transparent;
+        -webkit-text-stroke: transparent;
     }
 
     .homepageSection2Container {
@@ -223,17 +250,23 @@
         border-radius: 20px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
-    .homepageSection2Button.Right {
-    right: 0px;
-}
-    .homepageSection2Button.Left {
-    left: 0px;
-}
 
-.homepageSection2Button{
-    width: 30px;
-    height: 30px;
-}
+    .homepageSection2Button.Right {
+        right: 0px;
+    }
+
+    .homepageSection2Button.Left {
+        left: 0px;
+    }
+
+    .homepageSection2Button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .CloudImageBottom,.CloudImageTop{
+display: block;
+    }
 
 
 }

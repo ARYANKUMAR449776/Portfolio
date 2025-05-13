@@ -68,8 +68,10 @@ const Homepage = () => {
 
   return (
     <div className="homepage">
+      <img src={assets.Clouds} className='CloudImageTop' />
+      <img src={assets.Clouds} className='CloudImageBottom' />
       <section className="homepageSection1Container">
-        <div>
+        <div className='homepage-phrase-wrapper'>
           <p className="homepage-phrase">COMPILING DREAMS INTO DEPLOYABLE REALITIES</p>
         </div>
         <div className="homepageImages">

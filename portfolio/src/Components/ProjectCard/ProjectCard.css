@@ -7,17 +7,20 @@
   gap: 20px;
   padding: 40px 100px 40px 100px;
   border-radius: 10px;
+  background-color: transparent;
 }
 
 /* Layout for image on the left */
 .project-card-container.image-left {
   flex-direction: row;
   /* Default layout */
+  background-color: transparent;
 }
 
 /* Layout for image on the right */
 .project-card-container.image-right {
   flex-direction: row-reverse;
+  background-color: transparent;
   /* Reverse the layout */
 }
 
@@ -27,6 +30,10 @@
   height: 317px;
   object-fit: cover;
   border-radius: 10px;
+  background-color: transparent;
+}
+.project-card-image{
+    border-radius: 10px;
 }
 
 /* Styling for the content container */
@@ -35,6 +42,7 @@
   /* leave space for the line */
   color: white;
   text-align: left;
+  background-color: transparent;
 }
 
 .project-card-content.image-right {
@@ -42,6 +50,7 @@
   /* leave space for the line */
   color: white;
   text-align: right;
+  background-color: transparent;
 }
 
 
@@ -73,6 +82,7 @@
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  background-color: transparent;
 }
 
 /* Tag container */
@@ -83,10 +93,12 @@
   /* margin: 30px 0; */
   padding: 0;
   flex-wrap: wrap;
+  background-color: transparent;
 }
 
 .project-card-tags-container.image-right {
   flex-direction: row-reverse;
+  background-color: transparent;
 }
 
 /* Each Tag */
@@ -141,6 +153,7 @@
     height: 257px;
     object-fit: cover;
     border-radius: 10px;
+    background-color: transparent;
 }
 
 }

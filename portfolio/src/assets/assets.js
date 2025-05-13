@@ -13,6 +13,7 @@ import EmergencyDevice from '../assets/EmergencyDevice.png';
 import GithubLogo from '../assets/GitLogo.jpg';
 import LinkedInLogo from '../assets/LinkedIn.png';
 import ErrorPageLogo from '../assets/404Page.gif';
+import Clouds from '../assets/Clouds.png';
 
 
 export const assets = {
@@ -30,5 +31,6 @@ export const assets = {
   EmergencyDevice,
   GithubLogo,
   LinkedInLogo,
-  ErrorPageLogo
+  ErrorPageLogo,
+  Clouds
 };
