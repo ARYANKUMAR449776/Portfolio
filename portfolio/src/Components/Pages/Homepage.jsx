@@ -42,6 +42,13 @@ const Homepage = () => {
     }
   };
 
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   useEffect(() => {
     const container = containerRef.current;
 
@@ -62,6 +69,8 @@ const Homepage = () => {
       }
     };
 
+    
+
     container.addEventListener('scroll', handleScroll);
     return () => container.removeEventListener('scroll', handleScroll);
   }, []);
@@ -72,7 +81,10 @@ const Homepage = () => {
       <img src={assets.Clouds} className='CloudImageBottom' />
       <section className="homepageSection1Container">
         <div className='homepage-phrase-wrapper'>
-          <p className="homepage-phrase">COMPILING DREAMS INTO DEPLOYABLE REALITIES</p>
+          <p className="homepage-phrase">
+            COMPILING DREAMS INTO DEPLOYABLE REALITIES
+        <button className='ExploreButton' onClick={scrollToProjects}>Explore Projects</button>
+        </p>
         </div>
         <div className="homepageImages">
           <img className="homeImageDimensions" src={assets.MainBodyImage1} alt="BodyImage1" />

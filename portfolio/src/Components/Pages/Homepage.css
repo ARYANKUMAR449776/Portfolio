@@ -8,6 +8,8 @@
     color: white;
     line-height: 1.2;
     background-color: transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 .homepage-phrase-wrapper {
@@ -21,13 +23,30 @@
     justify-content: space-between;
     gap: 50px;
     padding: 0 3vw;
-    margin-top: 13dvh;
+    margin-top: 10dvh;
 }
 
 .homepageImages {
     display: flex;
     flex-direction: row;
     gap: 40px;
+}
+
+.ExploreButton{
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid 2px white;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    width:150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.ExploreButton:hover{
+background-color: white;
+color: #121212;
 }
 
 .CloudImageTop {
@@ -219,8 +238,17 @@
         font-size: 30px;
     }
 
+    .homepageSection1Container{
+        margin-top: 20dvh;
+        margin-bottom: 30dvh;
+    }
+
     .stroke {
         font-size: 30px;
+    }
+
+    .project-text-wrapper{
+        margin: 0px;
     }
 
     .stroke.bottom {

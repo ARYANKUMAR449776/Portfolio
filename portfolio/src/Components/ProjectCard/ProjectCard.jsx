@@ -14,7 +14,7 @@ const ProjectCard = ({ image, projectTitle, projectDescription, imageLayout, tag
           {projectTitle.split(" ").map((word, index) => (
             <span
               key={index}
-              style={{ color: index === 0 ? "white" : "#393939" }}
+              style={{ color: index === 0 ? "white" : "#393939",backgroundColor: "transparent" }}
             >
               {" "+word}
             </span>
