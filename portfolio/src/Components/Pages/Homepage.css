@@ -182,6 +182,7 @@
 
     .stroke {
         font-size: 40px;
+
     }
 
 }
@@ -193,6 +194,16 @@
 
     .stroke {
         font-size: 30px;
+    }
+
+    .stroke.bottom{
+        -webkit-text-fill-color: #121212;
+        -webkit-text-stroke: transparent;
+    }
+
+    .stroke.top{
+        -webkit-text-fill-color: white;
+             -webkit-text-stroke: transparent;
     }
 
     .homepageSection2Container {
@@ -223,5 +234,6 @@
     width: 30px;
     height: 30px;
 }
+
 
 }
