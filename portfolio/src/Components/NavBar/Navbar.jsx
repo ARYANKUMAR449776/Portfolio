@@ -69,7 +69,7 @@ const Navbar = () => {
                         <Link to="/#projects">PROJECTS</Link>
                     </li>
                     <li className='navbar-list-items'>
-                        <Link to="/404">EXPERIENCE</Link>
+                        <Link to="/experience">EXPERIENCE</Link>
                     </li>
 
                 </ul>

@@ -1,0 +1,49 @@
+.ExperiencePage-Hero{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100dvh ;
+}
+
+.ExperienceTagline{
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    background: transparent;
+}
+
+.slanted-line {
+    position: absolute;
+    width: 500px;
+    height: 6px;
+    opacity: 1;
+    z-index: 1;
+    border-radius: 3px;
+    animation: slant-in 1s forwards;
+    left: 50%;
+    top: 50%;
+    transform-origin: center;
+}
+
+.slanted-line.top {
+    transform: translate(-50%, -50%) rotate(-45deg) scaleX(0);
+    /* Lightest (transparent) at center, solid at outer end */
+    background: linear-gradient(to left, transparent 0%, transparent 60%, #fff 100%);
+    animation-delay: 0.2s;
+}
+
+.slanted-line.bottom {
+    transform: translate(-50%, -50%) rotate(-45deg) scaleX(0);
+    /* Lightest (transparent) at center, solid at outer end */
+    background: linear-gradient(to right, transparent 0%, transparent 62%, #fff 100%);
+    animation-delay: 0.2s;
+}
+
+@keyframes slant-in {
+    to {
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(1);
+    }
+}
