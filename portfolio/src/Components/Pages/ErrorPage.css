@@ -26,6 +26,7 @@
 .error-page-bottom {
   width: 20rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
