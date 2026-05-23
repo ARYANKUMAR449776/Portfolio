@@ -14,11 +14,8 @@ function App() {
   return (
   
     <>
-    {!hideNavbar.includes(pageLocation.pathname) && <Navbar />}
     <Routes>
-        <Route path="/" element={<Homepage />} />
-         <Route path="/404" element={<ErrorPage />} />
-         <Route path="/experience" element={<ExperiencePage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
   )
